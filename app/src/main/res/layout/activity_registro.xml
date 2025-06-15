@@ -7,4 +7,67 @@
     android:layout_height="match_parent"
     tools:context=".Login.Registro">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/nombreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/nombre"
+            />
+
+        <EditText
+            android:id="@+id/numeroTelefonoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/numeroTelefono"
+            />
+
+        <EditText
+            android:id="@+id/usuarioEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/usuario"
+            />
+
+        <EditText
+            android:id="@+id/contrasenaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/contrasena"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/confirmarContrasenaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/confirmarContrasena"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/registrarseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

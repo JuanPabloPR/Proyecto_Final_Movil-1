@@ -3,4 +3,14 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="mantenerSesion">Mantener Sesion activa</string>
+    <string name="nombre">Nombre</string>
+    <string name="confirmarContrasena">Confirmar Contraseña</string>
+    <string name="numeroTelefono">Numero de telefono</string>
+
 </resources>
