@@ -13,6 +13,7 @@ import com.example.proyectofinal.PromocionesActivity
 import com.example.proyectofinal.EnviarProductos
 import com.example.proyectofinal.Historial
 import com.example.proyectofinal.databinding.FragmentDashboardBinding
+import com.example.proyectofinal.FormActivity
 
 class DashboardFragment : Fragment() {
 
@@ -38,6 +39,12 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+
+        binding.btnReserva.setOnClickListener {
+            val intent = Intent(requireContext(), FormActivity::class.java)
+            startActivity(intent)
+        }
+
         //asignar objetos del entorno visual
         botonEntrega = binding.btnEntregas
         botonHistorial = binding.btnHistorial
@@ -51,6 +58,7 @@ class DashboardFragment : Fragment() {
             val intent = Intent(context, Historial::class.java)
             startActivity(intent)
         }
+
 
 
 

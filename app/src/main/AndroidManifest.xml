@@ -16,6 +16,9 @@
             android:name=".Historial"
             android:exported="false" />
         <activity
+            android:name=".FormActivity"
+            android:exported="false" />
+        <activity
             android:name=".EnviarProductos"
             android:exported="false" />
         <activity
