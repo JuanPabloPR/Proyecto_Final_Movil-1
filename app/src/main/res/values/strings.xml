@@ -12,5 +12,5 @@
     <string name="nombre">Nombre</string>
     <string name="confirmarContrasena">Confirmar Contraseña</string>
     <string name="numeroTelefono">Numero de telefono</string>
-
+    <string name="calificarServicio">Calificar Servicio</string>
 </resources>
