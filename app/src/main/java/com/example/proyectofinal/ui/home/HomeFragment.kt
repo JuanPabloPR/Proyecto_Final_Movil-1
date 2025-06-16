@@ -41,12 +41,12 @@ class HomeFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(this.context)
 
         val items = listOf(
-            MenuItem(R.drawable.tacosbirria, "Tacos de Birria", "Tacos suaves rellenos de birria de res marinada en chiles y especias, acompañados de consomé para sumergir.\n\nPrecio: \$75"),
-            MenuItem(R.drawable.enchiladas, "Enchiladas Verdes de Pollo", "Tortillas rellenas de pollo deshebrado bañadas en salsa verde de tomatillo, crema y queso fresco.\n\nPrecio: \$90"),
-            MenuItem(R.drawable.sopes, "Sopes de Chorizo con Papa", "Sopes gruesos de maíz cubiertos con frijoles, chorizo, papa, lechuga, crema y queso.\n\nPrecio: \$60"),
-            MenuItem(R.drawable.tamal, "Tamal de Elote Dulce", "Tamal suave hecho con maíz tierno y un toque de azúcar, ideal para acompañar con café.\n\nPrecio: \$25"),
-            MenuItem(R.drawable.aguas, "Aguas Frescas", "Bebidas tradicionales refrescantes elaboradas artesanalmente.\n\nPrecio: \$20"),
-            MenuItem(R.drawable.pozole, "Pozole Rojo", "Descripción: Guiso tradicional de maíz y carne de cerdo en caldo rojo, servido con lechuga, rábanos, cebolla y tostadas.\n\nPrecio: \$95")
+            MenuItem(R.drawable.tacosbirria, "Tacos de Birria", "Tacos suaves rellenos de birria de res marinada en chiles y especias, acompañados de consomé para sumergir.\n\nPrecio: \$75", true),
+            MenuItem(R.drawable.enchiladas, "Enchiladas Verdes de Pollo", "Tortillas rellenas de pollo deshebrado bañadas en salsa verde de tomatillo, crema y queso fresco.\n\nPrecio: \$90", true),
+            MenuItem(R.drawable.sopes, "Sopes de Chorizo con Papa", "Sopes gruesos de maíz cubiertos con frijoles, chorizo, papa, lechuga, crema y queso.\n\nPrecio: \$60", true),
+            MenuItem(R.drawable.tamal, "Tamal de Elote Dulce", "Tamal suave hecho con maíz tierno y un toque de azúcar, ideal para acompañar con café.\n\nPrecio: \$25", true),
+            MenuItem(R.drawable.aguas, "Aguas Frescas", "Bebidas tradicionales refrescantes elaboradas artesanalmente.\n\nPrecio: \$20", true),
+            MenuItem(R.drawable.pozole, "Pozole Rojo", "Descripción: Guiso tradicional de maíz y carne de cerdo en caldo rojo, servido con lechuga, rábanos, cebolla y tostadas.\n\nPrecio: \$95", true)
         )
 
         val adapter = MenuAdaptador(items)

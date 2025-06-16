@@ -19,4 +19,6 @@
     <string name="opinion">Opinion</string>
     <string name="CerrarSesion">Cerrar Sesion</string>
     <string name="Enviar">Enviar</string>
+    <string name="Domicilio">Domicilio</string>
+    <string name="hacerPedido">hacer pedido</string>
 </resources>
