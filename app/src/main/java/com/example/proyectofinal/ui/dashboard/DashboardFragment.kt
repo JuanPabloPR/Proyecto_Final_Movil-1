@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.proyectofinal.PromocionesActivity
 import com.example.proyectofinal.EnviarProductos
 import com.example.proyectofinal.Historial
 import com.example.proyectofinal.databinding.FragmentDashboardBinding
@@ -56,8 +57,19 @@ class DashboardFragment : Fragment() {
         return root
     }
 
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.btnPromociones.setOnClickListener {
+            val intent = Intent(requireContext(), PromocionesActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
 }
