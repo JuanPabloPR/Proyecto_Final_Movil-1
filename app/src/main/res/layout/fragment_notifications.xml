@@ -101,6 +101,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Enviar"
             android:textAllCaps="false"
+            android:backgroundTint="#FF5722"
             />
 
         <Button
@@ -110,6 +111,7 @@
             android:text="@string/CerrarSesion"
             android:textAllCaps="false"
             android:layout_marginTop="100dp"
+            android:backgroundTint="#FF5722"
             />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

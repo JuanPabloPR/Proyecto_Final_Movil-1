@@ -48,7 +48,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Guardar" />
+            android:text="Guardar"
+            android:backgroundTint="#FF5722"
+            />
 
         <ListView
             android:id="@+id/listView"
