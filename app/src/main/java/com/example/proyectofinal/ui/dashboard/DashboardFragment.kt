@@ -1,5 +1,6 @@
 package com.example.proyectofinal.ui.dashboard
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.proyectofinal.PromocionesActivity
 import com.example.proyectofinal.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
@@ -33,8 +35,19 @@ class DashboardFragment : Fragment() {
         return root
     }
 
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.btnPromociones.setOnClickListener {
+            val intent = Intent(requireContext(), PromocionesActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
 }

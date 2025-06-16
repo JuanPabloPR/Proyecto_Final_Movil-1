@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+
     tools:context=".ui.dashboard.DashboardFragment">
 
     <com.google.android.material.button.MaterialButton
@@ -44,6 +46,7 @@
         android:id="@+id/btnPromociones"
         style="@style/BotonCircular"
         app:icon="@drawable/promociones"
+        android:textColor="@color/black"
         android:layout_margin="8dp"
         android:layout_width="0dp"
         app:iconGravity="textTop"
@@ -59,6 +62,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnHistorial"
+
         style="@style/BotonCircular"
         app:icon="@drawable/pedidos"
         app:iconGravity="textTop"
@@ -77,39 +81,57 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="11dp"
+
+
         android:text="Reservaciones"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnReserva"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="96dp"
+
+        android:layout_marginBottom="11dp"
         android:text="Pedidos a entregar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntregas"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="92dp"
+
+        android:layout_marginBottom="11dp"
         android:text="Promociones"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnPromociones"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnReserva" />
+        app:layout_constraintTop_toBottomOf="@+id/btnReserva"
+        app:layout_constraintVertical_bias="0.989" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="136dp"
+
+        android:layout_marginBottom="11dp"
         android:text="Historial"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnHistorial"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/btnEntregas" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEntregas"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
