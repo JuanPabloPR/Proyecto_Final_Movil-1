@@ -13,4 +13,10 @@
     <string name="confirmarContrasena">Confirmar Contraseña</string>
     <string name="numeroTelefono">Numero de telefono</string>
     <string name="calificarServicio">Calificar Servicio</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="Direccion">C. Nueva Escocia 1885, Providencia 5a Secc., 44638 Guadalajara, Jal.</string>
+    <string name="numero">33 3641 3250</string>
+    <string name="opinion">Opinion</string>
+    <string name="CerrarSesion">Cerrar Sesion</string>
+    <string name="Enviar">Enviar</string>
 </resources>
