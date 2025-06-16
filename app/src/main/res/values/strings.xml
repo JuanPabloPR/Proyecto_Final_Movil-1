@@ -19,6 +19,6 @@
     <string name="opinion">Opinion</string>
     <string name="CerrarSesion">Cerrar Sesion</string>
     <string name="Enviar">Enviar</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Domicilio">Domicilio</string>
+    <string name="hacerPedido">hacer pedido</string>
 </resources>
